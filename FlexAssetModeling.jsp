@@ -28,6 +28,7 @@ OUTPUT
 		</div><%
 		Logger log = Logger.getLogger("Entering into Export Flex Asset Template");
 		try{
+			out.println("Just edited");
 			// Reading values from property (Config Files) and assigning to local variables
 			String defaultFileFormat = "excel";
 			String outputFormat = Utilities.goodString(ics.GetProperty("OutputFileFormat","JPMC_Constants.ini",true))? ics.GetProperty("OutputFileFormat","JPMC_Constants.ini",true) : defaultFileFormat ;
