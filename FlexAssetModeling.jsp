@@ -9,7 +9,7 @@
 /ExportFromOWCS
 INPUT
 OUTPUT
-1234
+12345
 --%>
 <%-- Record dependencies for the Template --%>
 <ics:if condition='<%=ics.GetVar("tid")!=null%>'><ics:then><render:logdep cid='<%=ics.GetVar("tid")%>' c="Template"/></ics:then></ics:if>
